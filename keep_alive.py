@@ -9,8 +9,8 @@ def main():
      return '''
          <h1>Logged into account, use uptimer now!</h1>
          <br>
-         <form action="https://www.youtube.com/@thethirdelement" method="get">
-             <button type="submit">The Third Element YouTube</button>
+         <form action="https://www.youtube.com/@TriplCore" method="get">
+             <button type="submit">TriplCore YouTube</button>
          </form>
          '''
 
