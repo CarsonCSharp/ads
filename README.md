@@ -55,19 +55,19 @@ This project allows you to keep your Discord account forever online with a custo
 ## **🚀 Installation**
 
 1. **Fork the repository to Repl.it**:
-   - Login/Sign Up in [Replit](https://replit.com/) and click `Import from GitHub`.
-   - Select "🔗 From URL" and paste the Repository URL in the bar and click Import button present below.
+- Login/Sign Up in [Replit](https://replit.com/) and click `Import from GitHub`.
+- Select "🔗 From URL" and paste the Repository URL in the bar and click Import button present below.
 ```bash
 https://github.com/TriplCore/24x7-Online-Discord
 ```
 2. **Extract your Discord user token by the following process:**
-   - Open your Discord in a browser(recommended) or the client itself(not recommended).
-   - Open up Developer tools by pressing `F12` on your keyboard.
-   - Go to console and paste the code as provided below.
+- Open your Discord in a browser(recommended) or the client itself(not recommended).
+- Open up Developer tools by pressing `F12` on your keyboard.
+- Go to console and paste the code as provided below.
      ```bash
      (webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c in e.c)m.push(e.c[c])}]),m).find(m=>m?.exports?.default?.getToken!==void 0).exports.default.getToken()
      ```
-   - It will throw your Discord User Token that you are currently logged in. <br></br>
+- It will throw your Discord User Token that you are currently logged in. <br></br>
 3. **Put your User Token in Replit**
 - Go to Tools > Secrets, then create a new secret with `Key` as `DISCORD_TOKEN` and `Value` as your `Discord User Token`.
 - Click add secret.<br></br>
